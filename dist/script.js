@@ -35,8 +35,7 @@ let interval = 0;
     interval = setInterval(moveOutcomes, intervalTime);
   }
 
-
-  // deals with 
+ 
   function moveOutcomes() {
     // endgame moves
     if (
