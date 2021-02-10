@@ -1,0 +1,86 @@
+ * {
+     margin: 0;
+     padding: 0;
+     color: white;
+     box-sizing: border-box;
+     font-family: monospace;
+ }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: mediumaquamarine;
+    overflow: hidden;
+}
+
+.title {
+
+    font-size: 5rem;
+    text-shadow: 2px 2px rgb(246, 90, 90);
+    padding-top: 50px;
+}
+
+.score {
+    font-size: 1.5rem;
+    
+}
+main {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.grid {
+    width: 410px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid teal;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    background-color: black;
+     border-radius: 5px;
+}
+
+.apple {
+    background-color: red;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: teal;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    width: 30%;
+}
+
+button:hover {
+    letter-spacing: 10px;
+}
+
+.endgame-modal {
+    height: 300px;
+    width: 40vw;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 15px black;
+}
+
+.hidden {
+    display: none;
+}
